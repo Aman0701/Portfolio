@@ -1,0 +1,14 @@
+{
+   "type": "service_account",
+  "project_id": "sahistocks",
+  "private_key_id": "4556d8b571b3680dacee1fb762158504a9f42546",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDA7jw7YxTUhagh\nwlr7QXpYTLVfo6ptmvE1QPEnmTyShPr2rekhjRBxZlE+rlxHUlrtrOmE3F9sO97i\niEWxGaWcj1RLoRLnwNq+IABEZ6KJMukUS6DOhnESFtovS7Up0DrHe0nBFmHQvOSE\naUp1Hz2X/OQkNxk3FtpQ9sNRywFPO06T35iNy2qyCViJgFi/5JmQIuTe86GUx7Rv\nwHcwikvG2IHfZfYt/mN0QOWgJXT5MlJKXZhkqp5ThUrSMXnghB6n+IGyx/Vtw2/x\nh3B1G7Hu4atSHl8p5SiKLOkoZEyPkqZuH2aKcxHUIeJp9U+qzP6ONlZcjP5yp2Qm\nY2Gfk5R1AgMBAAECggEAYCqf9U4nBOP2cZVqOlFiBX9+7MQs4GNaFhxf2EgmjDYi\nzjDTwviImK3Sk3bf4mEnl88XuzUJj26sY6hfbK6HAWnkL6qDPOfBYQGcgHxT5SVu\nTsJ/zlHvLIAdk3OeQtBbbDGFCuz4Js7w7Rt6lLTUw9y3b2HTfMU0XyURKMUSywW8\nUE6zPtHSFMZNHv4EvMdm0Q/djdol63dR32vyVhUoxCBwA62nwLKVgFE0G93D2a/v\nKvsjwjry0qhrCNIxIctbXUpvmx1vumAplqhbIPFvF97g4EfwKRO6UoATK3Cfku9E\nGsVeQpof+J7twXWs5Jsog9lko7yqEKH8c682kHFl5QKBgQDeer48VMDh0zX/6Mo8\n6WsCm2zlJf9t/PU3ffp1iSLP22jpMx9x+/Odbqlxf8k38a9L3t6iuouK7dA2HsUI\n09U0INqhwDHNQQqXVms0L8cz59Uubu77Y65uAQJjPrgypLyhk3unV4zcNzyta4HA\no53651sHYvAW7Obl60HtLKHNSwKBgQDd/8NQ6RNN/SyHNOC+BNnnw4vXOZBHNBFL\n04iBnE+9fJm7o6JbzXa80IYrowWXOccecJ5i+6P8KimdRLSgGdZRTOpZf2Ut15Hf\n7T8oQO/mlPCBUFvoBIgf9r4xF7bYXf81RsYgQ4yTva1GGy1c7xfnLF7XyU4tzJxN\ngVeGnffNPwKBgQClepKI+VlGHv1pTVMvn0Zy9/w1LOAihSY3kkJ6rffwtvf/jID1\nHTwEe00ZGL0oGWITgsACNdKZEW3u81AG0tkgHte/u97PFnO0QRkYBfmbB/MuyGCF\nJ42UULff7cTAFnwfij1NKPeizIsbSn2GNazJ9M9mXRbLVoYfua6dpLbspQKBgQDG\nzWDaly7be2qh1f+hCvUcsKgNYBZNPVpz3gXzk8hw9yEwwNQHhBLd+Zr9furlxy8C\nmnWsTI9IpXVIyhs6+IhNnCSNayFvkQmoT2xsnuJ3Sk+qbg0v1McWYL9ndUYfsuV1\nj2Cjyfoc4BJIotPX0qFEOx7f/P0O1JnwanC4M8SSvwKBgBa1wBItJxFgyD1ukTxk\nAamyoa8xO+M4vp9AypMVUKW/zf+oGozryxlhOhm8XJV6nUNUApJZbXHZus/5v0k/\n734sAEJKwEnbTaLlrmQHctyPtZEZRs3BZWulCthH/j7uj+lJdlhTNbU3XiMM9EG0\nUGLpYZSs6cBXS08iw0ogIVxy\n-----END PRIVATE KEY-----\n",
+  "client_email": "sahistocks@sahistocks.iam.gserviceaccount.com",
+  "client_id": "100680397870235441757",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sahistocks%40sahistocks.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+  }
+  

@@ -1,0 +1,30 @@
+<!-- <div class="payment"> -->
+    <div id="circle">
+        <i class="fa-regular fa-circle-check fa-4x"></i>
+    </div>
+    <div id="payment-text">
+        <h1>Payment Successful</h1>
+        <h2> Hello <%= name %></h2>
+        <p>Thank you for your payment. Your order is being</p>
+        <p> processed and you will receive a confirmation email</p>
+        <p>shortly.</p>
+    </div>
+    <div id="order-detail">
+        <h1>Payment Details</h1>
+        <div>
+            <h2 style="opacity: .7;">Transaction ID:</h2>
+            <h2><%= payment_id %></h2>
+        </div>
+        <div>
+            <h2 style="opacity: .7;">Amount Paid:</h2>
+            <h2><i class="fa-solid fa-indian-rupee-sign"></i> <%= amount %></h2>
+        </div>
+        <div>
+            <h2 style="opacity: .7;">Date:</h2>
+            <h2><%= date %> <%= time %></h2>
+        </div>
+    </div>
+    <div id="homepageButton">
+        <a href="/"><button type="submit">Go To Homepage</button></a>
+    </div>
+<!-- </div> -->

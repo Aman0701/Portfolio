@@ -1,0 +1,130 @@
+<div class="expandable">
+    <div  class="service">
+        <div>
+            <p>Personal Newsletter  (price -<i class="fa-solid fa-indian-rupee-sign"></i> 199) </p>
+        </div>
+        <div id="dropdown">
+            <i class="fa-solid fa-caret-down fa-lg"></i>
+        </div>
+        <div id="dropup" class="display-none">
+            <i class="fa-solid fa-caret-up fa-lg"></i>
+        </div>
+    </div>
+    <div id="monthly" class="list display-none">
+        <ul>
+            <li>
+                Get access to my portfolio
+            </li>
+            <li>
+                Get access to my watchlist of 300+ companies
+            </li>
+            <li>
+                Get access to my investments 3-4 days before I make them
+            </li>
+            <li>
+                Watch me invest live over google meet calls
+            </li>
+        </ul>
+        <div class="view-button">
+            <a href="#subscribe"data-price="199" data-sub="Monthly" class="update-link"><button>Purchase</button></a>
+        </div>
+    </div>
+</div>
+
+<div class="expandable">
+    <div  class="service">
+        <div>
+            <p> Connect with me (<%= remainingUser %> slots remaining) (price - <i class="fa-solid fa-indian-rupee-sign"></i> 399)</p>
+        </div>
+        <div id="dropdown">
+            <i class="fa-solid fa-caret-down fa-lg"></i>
+        </div>
+        <div id="dropup" class="display-none">
+            <i class="fa-solid fa-caret-up fa-lg"></i>
+        </div>
+    </div>
+    <div id="quarterly" class="list display-none">
+        <ul>
+            <li>
+                Get connected with me over WhatsApp
+            </li>
+            <li>
+                Ask for doubts or any market related concepts
+               
+            </li>
+            <li>
+                Get reply within 48 hours
+            </li>
+        </ul>
+        <div class="view-button">
+           <% if(remainingUser <= 0){ %>
+            <a href="#subscribe"data-price="399" data-sub="Quarterly" class="update-link"><button disabled>Purchase</button></a>
+           <% }else{ %>
+            <a href="#subscribe"data-price="399" data-sub="Quarterly" class="update-link"><button>Purchase</button></a>
+           <% } %>
+        </div>
+    </div>
+</div>
+<div class="expandable">
+    <div  class="service">
+        <div>
+            <p> Get on a call with me</p>
+        </div>
+        <div id="dropdown">
+            <i class="fa-solid fa-caret-down fa-lg"></i>
+        </div>
+        <div id="dropup" class="display-none">
+            <i class="fa-solid fa-caret-up fa-lg"></i>
+        </div>
+    </div>
+    <div id="HalfYearly" class="list display-none">
+        <ul>
+            <li>
+                Schedule a 30 min call with me
+            </li>
+            
+        </ul>
+        <div class="view-button">
+            <a href="http://topmate.io/invest_with_soumyadeep/?utm_source=topmate&utm_medium=popup&utm_campaign=Page_Ready" target="_blank"><button>Schedule Call</button></a>
+        </div>
+    </div>
+</div>
+
+
+<div class="details" id="subscribe">
+    <form id="paymentForm">
+       <h1>Please Enter Your Detail</h1>
+       <h2 id="subscriptionType">
+           Subsciption
+       </h2>
+       <h2 id="priceValue">@ <i class="fa-solid fa-indian-rupee-sign"></i>
+          
+       </h2>
+       <input type="hidden" name="price" id="price" value="">
+       <div class="input-detail">
+          <label for="name" class="grey">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter Name.." required>
+       </div>
+       <div class="input-detail">
+          <label for="email" class="grey">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter Email" required>
+       </div>
+       <div class="input-detail">
+          <label for="phone" class="grey">Phone No.</label>
+          <input type="text" name="phone" id="phone" placeholder="Enter Phone Number" maxlength="10" minlength="10"
+             pattern="\d{10}" required>
+       </div>
+       <div class="input-detail">
+          <button type="submit">Pay</button>
+       </div>
+    </form>
+    <div id="cancle">
+        <a href="#" style="color: black;"><i class="fa-solid fa-xmark"></i></a>
+    </div>
+ </div>
+
+
+<script src="/service.js"></script>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="/payment.js"></script>

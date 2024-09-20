@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.grey {
+    background-color: #f7f8fc;
+}
+
+.display-none{
+    display: none;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav {
+    width: 90vw;
+    height: 11.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nav img {
+    width: 6%;
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 68.5vh;
+    height: auto;
+    width: 80%;
+}
+
+.footer {
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    background-color: #0d161b;
+    padding-top: 1%;
+    font-size: 1rem;
+    margin-top: 2%;
+}
+
+.detail {
+    width: 50%;
+    height: 50vh;
+    font-size: 1.3rem;
+}
+
+.detail button {
+    color: white;
+    background-color: #ffa500;
+    border: none;
+    height: 6vh;
+    width: 15vw;
+    font-size: 1.1rem;
+}
+
+/* Right div styling */
+.video {
+    width: 45%;
+    min-height: 50vh;
+    height: auto;
+}
+
+.video img {
+    width: 100%;
+    height: 45vh;
+}
+
+
+/* Service Page */
+
+.expandable {
+    position: relative;
+    width: 65%;
+    min-height: 10vh;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+    font-size: 1.5rem;  
+    padding-left: 2%;
+    padding-right: 2%; 
+}
+
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expended{
+    height: auto;
+}
+
+.view-button{
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+.view-button a button, .input-detail button{
+    min-width: 30%;
+    width: auto;
+    height: 50px;
+    background-color: #ffa500;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1rem;
+}
+
+/* details Page */
+
+#subscribe{
+    transition: all 1s ease-in-out;
+    display: none;
+}
+
+.details{
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    background-color: #f7f8fc;
+    width: 50%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.input-detail{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-detail input{
+    width: 70%;
+    height: 4.9vh;
+    border: 1px solid black;
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 2%;
+    font-size: 1.2rem;
+}
+
+.input-detail input:focus{
+    border: 3px solid #ffa500;
+}
+.input-detail label{
+    width: 20%;
+    height: 5.1vh;
+    border: 1px solid black;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: #f7f8fc;
+}
+
+#cancle{
+    position: absolute;
+    top: 5%;
+    left: 95%;
+}
+
+#circle{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+#payment-text{
+    width: 94%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#order-detail{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#order-detail h1{
+    width: 30%;
+}
+
+#order-detail div{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#homepageButton{
+    width: 30%;
+    margin-left: 8%;
+}
+
+#homepageButton button{
+    height: 6vh;
+    width: 60%;
+    font-size: 1.2rem;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 10px;
+}
+
+@media only screen and (max-height: 400px){
+    .nav,.footer{
+        height: 20vh;
+    }
+
+    .content{
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .detail,.video{
+        min-height: 100vh;
+        height: auto;
+        width: 50%;
+    }
+
+    .input-detail{
+        min-height: 15vh;
+        height: auto;
+    }
+
+    .input-detail input,.input-detail label{
+        min-height: 10vh;
+        height: auto;
+    }
+   
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .main {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .content{
+        width: 100%;
+        min-height: 79vh;
+        height: auto;
+    }
+
+    .expandable{
+        width: 90%;
+    }
+
+    .nav img{
+        width: 20%;
+    }
+    /* Right div on top */
+    .video {
+        order: 1;
+        min-width: 100%;
+        width: auto;
+        height: 30%;
+        margin-top: 2%;
+    }
+
+    .video img {
+        width: 100%;
+        height: 31vh;
+    }
+
+    /* Left div below right div */
+    .detail {
+        order: 2;
+        width: 100%;
+        text-align: center;
+        font-size: .9rem;
+    }
+    .detail button {
+        width: 40vw;
+        font-size: 1rem;
+    }
+
+    .details{
+        left: 0;
+        width: 100%;
+    }
+
+    .input-detail input{
+        width: 65%;
+    }
+
+    .input-detail label{
+        width: 30%;
+    }
+
+    #order-detail{
+        width: 100%;
+        display: block;
+    }
+    #order-detail h1{
+        text-align: start;
+        width: 100%;
+    }
+    #order-detail div{
+        width: 100%;
+    }
+    #homepageButton{
+        width: 60%;
+    }
+    .service{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,53 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div style=" display: block;
+       min-height: 68.5vh;
+       height: auto;
+       width: 80%;">
+        <div id="payment-text" style=" width: 94%;
+        text-align: center;
+        font-size: 1.5rem;">
+            <h1>Payment Successful</h1>
+            <h2> Hello <%= name %>
+            </h2>
+            <p>We received your payment</p>
+            <p>Your Subscription ends on date <%= endDate%>
+            </p>
+        </div>
+        <div id="order-detail">
+            <h1 style=" width: 30%;">Payment Details</h1>
+            <div style="width: 85%;
+            display: flex;
+            justify-content: space-between;">
+                <h2 style="opacity: .7;">Transaction ID:</h2>
+                <h2>
+                    <%= payment_id %>
+                </h2>
+            </div>
+            <div style="width: 85%;
+            display: flex;
+            justify-content: space-between;">
+                <h2 style="opacity: .7;">Amount Paid:</h2>
+                <h2><i class="fa-solid fa-indian-rupee-sign"></i>
+                    <%= amount %>
+                </h2>
+            </div>
+            <div style="width: 85%;
+            display: flex;
+            justify-content: space-between;">
+                <h2 style="opacity: .7;">Date:</h2>
+                <h2>
+                    <%= date %>
+                        <%= time %>
+                </h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
