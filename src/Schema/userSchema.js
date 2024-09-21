@@ -9,12 +9,14 @@ export const UserSchema = new mongoose.Schema({
     email:{
         type:String,
         required:true,
+        unique:true
     },
     contact:{
         type:Number,
         required:true
     },
     transaction:[{
-        type:String
+        type:String,
+        unique:true
     }]
 })
